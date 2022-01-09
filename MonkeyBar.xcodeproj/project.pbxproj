@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8564EFE726C1E3E50067E8D2 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564EFE626C1E3E50067E8D2 /* ContactController.swift */; };
+		8564EFE926C1E7120067E8D2 /* PicturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8564EFE826C1E7120067E8D2 /* PicturesController.swift */; };
+		8564EFEF26C30F9A0067E8D2 /* mbg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8564EFEE26C30F9A0067E8D2 /* mbg4.png */; };
 		859C413326B501E900B8E9C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C413226B501E900B8E9C3 /* AppDelegate.swift */; };
 		859C413526B501E900B8E9C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C413426B501E900B8E9C3 /* SceneDelegate.swift */; };
-		859C413726B501E900B8E9C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C413626B501E900B8E9C3 /* ViewController.swift */; };
 		859C413A26B501E900B8E9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859C413826B501E900B8E9C3 /* Main.storyboard */; };
 		859C413C26B501EE00B8E9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859C413B26B501EE00B8E9C3 /* Assets.xcassets */; };
 		859C413F26B501EE00B8E9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859C413D26B501EE00B8E9C3 /* LaunchScreen.storyboard */; };
 		859C414A26B501EF00B8E9C3 /* MonkeyBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C414926B501EF00B8E9C3 /* MonkeyBarTests.swift */; };
 		859C415526B501EF00B8E9C3 /* MonkeyBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C415426B501EF00B8E9C3 /* MonkeyBarUITests.swift */; };
+		859C417226B7AD9B00B8E9C3 /* Algerian Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 859C417126B7AD9B00B8E9C3 /* Algerian Regular.ttf */; };
+		859C417626BC403A00B8E9C3 /* FoodTruckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C417526BC403A00B8E9C3 /* FoodTruckController.swift */; };
+		859C41B826BCC3E400B8E9C3 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C41B726BCC3E400B8E9C3 /* CalendarController.swift */; };
+		859C41BA26BCF90B00B8E9C3 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859C41B926BCF90B00B8E9C3 /* MainScreenController.swift */; };
+		85B9667C26C0E09B008FE798 /* MerchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9667B26C0E09A008FE798 /* MerchController.swift */; };
+		85B9667E26C1C7F9008FE798 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9667D26C1C7F9008FE798 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8564EFE626C1E3E50067E8D2 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		8564EFE826C1E7120067E8D2 /* PicturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesController.swift; sourceTree = "<group>"; };
+		8564EFEE26C30F9A0067E8D2 /* mbg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mbg4.png; path = ../../Images/mbg4.png; sourceTree = "<group>"; };
 		859C412F26B501E900B8E9C3 /* MonkeyBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859C413226B501E900B8E9C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859C413426B501E900B8E9C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		859C413626B501E900B8E9C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		859C413926B501E900B8E9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		859C413B26B501EE00B8E9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859C413E26B501EE00B8E9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		859C415026B501EF00B8E9C3 /* MonkeyBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859C415426B501EF00B8E9C3 /* MonkeyBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyBarUITests.swift; sourceTree = "<group>"; };
 		859C415626B501EF00B8E9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859C417126B7AD9B00B8E9C3 /* Algerian Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Algerian Regular.ttf"; path = "../../../Algerian Regular/Algerian Regular.ttf"; sourceTree = "<group>"; };
+		859C417526BC403A00B8E9C3 /* FoodTruckController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckController.swift; sourceTree = "<group>"; };
+		859C41B726BCC3E400B8E9C3 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		859C41B926BCF90B00B8E9C3 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		85B9667B26C0E09A008FE798 /* MerchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MerchController.swift; path = ../MerchController.swift; sourceTree = "<group>"; };
+		85B9667D26C1C7F9008FE798 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = ../MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,8 @@
 		859C412626B501E900B8E9C3 = {
 			isa = PBXGroup;
 			children = (
+				8564EFE826C1E7120067E8D2 /* PicturesController.swift */,
+				8564EFE626C1E3E50067E8D2 /* ContactController.swift */,
 				859C413126B501E900B8E9C3 /* MonkeyBar */,
 				859C414826B501EF00B8E9C3 /* MonkeyBarTests */,
 				859C415326B501EF00B8E9C3 /* MonkeyBarUITests */,
@@ -99,13 +117,19 @@
 		859C413126B501E900B8E9C3 /* MonkeyBar */ = {
 			isa = PBXGroup;
 			children = (
+				85B9667B26C0E09A008FE798 /* MerchController.swift */,
+				85B9667D26C1C7F9008FE798 /* MenuController.swift */,
+				859C416E26B7AD7900B8E9C3 /* fonts */,
 				859C413226B501E900B8E9C3 /* AppDelegate.swift */,
 				859C413426B501E900B8E9C3 /* SceneDelegate.swift */,
-				859C413626B501E900B8E9C3 /* ViewController.swift */,
+				859C417526BC403A00B8E9C3 /* FoodTruckController.swift */,
+				859C41B726BCC3E400B8E9C3 /* CalendarController.swift */,
+				859C41B926BCF90B00B8E9C3 /* MainScreenController.swift */,
 				859C413826B501E900B8E9C3 /* Main.storyboard */,
 				859C413B26B501EE00B8E9C3 /* Assets.xcassets */,
 				859C413D26B501EE00B8E9C3 /* LaunchScreen.storyboard */,
 				859C414026B501EE00B8E9C3 /* Info.plist */,
+				8564EFEE26C30F9A0067E8D2 /* mbg4.png */,
 			);
 			path = MonkeyBar;
 			sourceTree = "<group>";
@@ -126,6 +150,14 @@
 				859C415626B501EF00B8E9C3 /* Info.plist */,
 			);
 			path = MonkeyBarUITests;
+			sourceTree = "<group>";
+		};
+		859C416E26B7AD7900B8E9C3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				859C417126B7AD9B00B8E9C3 /* Algerian Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				859C413F26B501EE00B8E9C3 /* LaunchScreen.storyboard in Resources */,
+				8564EFEF26C30F9A0067E8D2 /* mbg4.png in Resources */,
+				859C417226B7AD9B00B8E9C3 /* Algerian Regular.ttf in Resources */,
 				859C413C26B501EE00B8E9C3 /* Assets.xcassets in Resources */,
 				859C413A26B501E900B8E9C3 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859C413726B501E900B8E9C3 /* ViewController.swift in Sources */,
+				859C417626BC403A00B8E9C3 /* FoodTruckController.swift in Sources */,
+				8564EFE926C1E7120067E8D2 /* PicturesController.swift in Sources */,
+				85B9667E26C1C7F9008FE798 /* MenuController.swift in Sources */,
+				8564EFE726C1E3E50067E8D2 /* ContactController.swift in Sources */,
+				859C41B826BCC3E400B8E9C3 /* CalendarController.swift in Sources */,
 				859C413326B501E900B8E9C3 /* AppDelegate.swift in Sources */,
 				859C413526B501E900B8E9C3 /* SceneDelegate.swift in Sources */,
+				859C41BA26BCF90B00B8E9C3 /* MainScreenController.swift in Sources */,
+				85B9667C26C0E09B008FE798 /* MerchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +474,6 @@
 		859C415A26B501EF00B8E9C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MonkeyBar/Info.plist;
@@ -452,7 +491,6 @@
 		859C415B26B501EF00B8E9C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MonkeyBar/Info.plist;
